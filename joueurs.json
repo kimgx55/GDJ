@@ -1,0 +1,176 @@
+{
+  "joueurs": [
+    {
+      "nom": "Younes",
+      "poste": ["attaquant", "milieu", "défenseur", "gardien"],
+      "niveau": [9, 7, 6, 4],
+      "leader": 7,
+      "individualité": 9,
+      "condition": 8
+    },
+    {
+      "nom": "Racim",
+      "poste": ["gardien", "défenseur", "milieu", "attaquant"],
+      "niveau": [9, 9, 6, 6],
+      "leader": 8,
+      "individualité": 7,
+      "condition": 7
+    },
+    {
+      "nom": "NacimJSK",
+      "poste": ["milieu", "attaquant", "défenseur", "gardien"],
+      "niveau": [8, 7, 6, 4],
+      "leader": 5,
+      "individualité": 6,
+      "condition": 9
+    },
+    {
+      "nom": "Liamine",
+      "poste": ["gardien", "défenseur", "milieu", "attaquant"],
+      "niveau": [8, 8, 5, 6],
+      "leader": 6,
+      "individualité": 6,
+      "condition": 7
+    },
+    {
+      "nom": "Khaled",
+      "poste": ["attaquant", "défenseur", "milieu", "gardien"],
+      "niveau": [8, 6, 5, 3],
+      "leader": 3,
+      "individualité": 6,
+      "condition": 9
+    },
+    {
+      "nom": "Moncef",
+      "poste": ["gardien", "milieu", "attaquant", "défenseur"],
+      "niveau": [7, 6, 6, 5],
+      "leader": 2,
+      "individualité": 7,
+      "condition": 8
+    },
+    {
+      "nom": "Zaki",
+      "poste": ["attaquant", "milieu", "gardien", "défenseur"],
+      "niveau": [8, 6, 5, 4],
+      "leader": 5,
+      "individualité": 6,
+      "condition": 8
+    },
+    {
+      "nom": "Amine",
+      "poste": ["attaquant", "milieu", "gardien", "défenseur"],
+      "niveau": [7, 6, 5, 4],
+      "leader": 5,
+      "individualité": 8,
+      "condition": 6
+    },
+    {
+      "nom": "Djemel",
+      "poste": ["milieu", "défenseur", "attaquant", "gardien"],
+      "niveau": [7, 6, 5, 3],
+      "leader": 5,
+      "individualité": 6,
+      "condition": 8
+    },
+    {
+      "nom": "Besboussa",
+      "poste": ["milieu", "défenseur", "attaquant", "gardien"],
+      "niveau": [6, 4, 4, 2],
+      "leader": 5,
+      "individualité": 6,
+      "condition": 7
+    },
+    {
+      "nom": "Sidahmed",
+      "poste": ["gardien", "attaquant", "défenseur", "milieu"],
+      "niveau": [10, 6, 4, 4],
+      "leader": 5,
+      "individualité": 6,
+      "condition": 4
+    },
+    {
+      "nom": "MohandJSK",
+      "poste": ["milieu", "attaquant", "défenseur", "gardien"],
+      "niveau": [6, 6, 4, 3],
+      "leader": 3,
+      "individualité": 5,
+      "condition": 7
+    },
+    {
+      "nom": "Hamed",
+      "poste": ["milieu", "attaquant", "défenseur", "gardien"],
+      "niveau": [7, 6, 5, 0],
+      "leader": 3,
+      "individualité": 5,
+      "condition": 7
+    },
+    {
+      "nom": "Hamza",
+      "poste": ["milieu", "attaquant", "défenseur", "gardien"],
+      "niveau": [7, 7, 3, 0],
+      "leader": 2,
+      "individualité": 8,
+      "condition": 4
+    },
+    {
+      "nom": "Hocine",
+      "poste": ["attaquant", "gardien", "défenseur", "milieu"],
+      "niveau": [5, 4, 4, 2],
+      "leader": 7,
+      "individualité": 2,
+      "condition": 10
+    },
+    {
+      "nom": "Amir",
+      "poste": ["attaquant", "gardien", "milieu", "défenseur"],
+      "niveau": [7, 5, 4, 4],
+      "leader": 4,
+      "individualité": 6,
+      "condition": 4
+    },
+    {
+      "nom": "Walid",
+      "poste": ["défenseur", "milieu", "attaquant", "gardien"],
+      "niveau": [5, 5, 4, 3],
+      "leader": 2,
+      "individualité": 6,
+      "condition": 6
+    },
+    {
+      "nom": "MassiJSK",
+      "poste": ["défenseur", "gardien", "milieu", "attaquant"],
+      "niveau": [7, 4, 4, 3],
+      "leader": 3,
+      "individualité": 4,
+      "condition": 6
+    },
+    {
+      "nom": "Kimoune",
+      "poste": ["défenseur", "attaquant", "gardien", "milieu"],
+      "niveau": [7, 4, 3, 3],
+      "leader": 2,
+      "individualité": 5,
+      "condition": 5
+    },
+    {
+      "nom": "Sofiane",
+      "poste": ["défenseur", "gardien", "milieu", "attaquant"],
+      "niveau": [8, 4, 3, 2],
+      "leader": 3,
+      "individualité": 6,
+      "condition": 3
+    }
+  ],
+  "synergies": [
+    ["Racim", "Hocine"],
+    ["Younes", "Khaled"],
+    ["Sidahmed", "Liamine"],
+    ["Racim", "Younes"]
+  ],
+  "anti_synergies": [
+    ["Kimoune", "Hocine"],
+    ["Besboussa", "Hocine"],
+    ["Walid", "Hocine"],
+    ["Walid", "Kimoune"]
+  ]
+}
