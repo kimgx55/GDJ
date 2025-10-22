@@ -508,10 +508,12 @@ def debug_info():
         "file_size": os.path.getsize(LAST_MATCHES_FILE) if os.path.exists(LAST_MATCHES_FILE) else 0
     })
 
-import os
+if __name__ == '__main__':
+    import os
     port = int(os.environ.get("PORT", 5000))
     print(f"\n{'='*60}")
     print(f"🚀 Flask server starting on port {port}")
     print(f"🌍 Host: 0.0.0.0")
     print(f"{'='*60}\n")
     app.run(debug=False, host="0.0.0.0", port=port)
+
