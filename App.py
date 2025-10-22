@@ -509,10 +509,5 @@ def debug_info():
     })
 
 if __name__ == '__main__':
-    print(f"\n{'='*60}")
-    print(f"🚀 Serveur Flask")
-    print(f"📁 Dossier: {BASE_DIR}")
-    print(f"📄 Historique: {LAST_MATCHES_FILE}")
-    print(f"✅ Existe: {os.path.exists(LAST_MATCHES_FILE)}")
-    print(f"{'='*60}\n")
-    app.run(debug=False, port=5001,host="0.0.0.0")  # Désactivé temporairement pour voir les logs
+    port = int(os.environ.get("PORT", 5000))
+    app.run(debug=False, host="0.0.0.0", port=port)  # Désactivé temporairement pour voir les logs
